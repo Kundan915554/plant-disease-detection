@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant AI Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">🌿 Plant disease detecter </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="upload.html">Detector</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>🌱 Smart Plant Disease Detection Using AI</h1>
+        <p>Upload leaf images and detect plant diseases instantly using AI.</p>
+    </header>
+    <div class="container">
+
+<div class="upload-box">
+<input type="file" id="imageUpload" accept="image/*">
+<button onclick="detectDisease()">Detect Disease</button>
+</div>
+
+
+<div class="preview-box">
+<img id="previewImage" src="" alt="Image Preview" />
+</div>
+
+
+<div class="result-box">
+<h2>Result:</h2>
+<p id="resultText">Upload an image to test</p>
+</div>
+
+    <!-- AI Feature Boxes -->
+    <section class="features">
+        <div class="feature-box">
+            <h2>🔍 AI Image Analyzer</h2>
+            <p>Deep learning model to detect plant diseases with high accuracy.</p>
+        </div>
+
+        <div class="feature-box">
+            <h2>📊 Health Report</h2>
+            <p>Get detailed results including probability and suggestions.</p>
+        </div>
+
+        <div class="feature-box">
+            <h2>⚡ Fast Processing</h2>
+            <p>Real-time disease detection in less than 2 seconds.</p>
+        </div>
+    </section>
+<script src="javascript.js"></script>
+<!-- Footer -->
+<footer class="footer">
+    <h3>🌿 Plant Disease Detector</h3>
+
+    <div class="social-icons">
+        <a href="#" class="icon instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+        </a>
+
+        <a href="#" class="icon youtube">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+
+        <a href="mailto:plantdetector@gmail.com" class="icon gmail">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+        </a>
+    </div>
+
+    <p>© 2025 Plant Disease Detector | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

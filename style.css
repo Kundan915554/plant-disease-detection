@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3e8fe;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1f2937;
+    color: white;
+}
+
+.navbar .logo {
+font-size: 22px;
+font-weight: bold;
+color: #16a34a;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-box {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+/* Upload Page */
+.upload-box{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#preview {
+    width: 300px;
+    margin-top: 20px;
+    display: none;
+}
+
+.result {
+    margin-top: 30px;
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.container {
+width: 90%;
+margin: auto;
+text-align: center;
+padding-top: 0px;
+}
+
+
+.upload-box {
+margin-top: 20px;
+}
+
+
+button {
+padding: 10px 20px;
+border: none;
+background: #16a34a;
+color: white;
+font-size: 16px;
+cursor: pointer;
+margin-top: 10px;
+border-radius: 5px;
+}
+
+
+button:hover {
+background: #12863f;
+}
+
+
+.preview-box img {
+margin-top: 20px;
+max-width: 300px;
+border-radius: 10px;
+border: 2px solid #1e2a38;
+}
+
+
+.result-box {
+margin-top: 20px;
+background: #2e4972;
+padding: 15px;
+border-radius: 8px;
+width: 50%;
+margin: 20px auto;
+
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+}
+/* Footer */
+
+.footer {
+    margin-top: 60px;
+    background: #919396;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
